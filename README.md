@@ -14,77 +14,6 @@ A modern, responsive news application built with React Native and Expo. This app
 - **Offline Support**: View previously loaded content when offline
 - **Article Detail View**: Read full articles within the app
 
-## 🛠️ Tech Stack
-
-- **Framework**: [React Native](https://reactnative.dev/)
-- **SDK**: [Expo](https://expo.dev/)
-- **Navigation**: [Expo Router](https://docs.expo.dev/routing/introduction/)
-- **Styling**: React Native StyleSheet
-- **Icons**: [Expo Vector Icons](https://docs.expo.dev/guides/icons/)
-- **Storage**: [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)
-- **Images**: [Expo Image](https://docs.expo.dev/versions/latest/sdk/image/)
-- **State Management**: React Hooks (useState, useEffect, useContext)
-- **API Integration**: RESTful API integration (currently using mock data)
-
-## 📂 Project Structure
-
-```
-myApp/
-├── app/                 # Expo Router app directory
-│   ├── _layout.tsx      # Root layout component
-│   ├── index.tsx        # Main app entry point
-│   └── [...missing].tsx # 404 page
-├── assets/              # Static assets (images, fonts)
-├── components/          # Reusable UI components
-│   ├── news/            # News-specific components
-│   ├── screens/         # Screen components
-│   └── ui/              # UI utility components
-├── constants/           # App constants
-├── hooks/               # Custom React hooks
-├── services/            # API services
-└── scripts/             # Utility scripts
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or later)
-- npm or yarn
-- Expo CLI
-- iOS Simulator or Android Emulator (optional for mobile testing)
-
-### Installation
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/news-app.git
-   cd news-app
-   ```
-
-2. Install dependencies
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. Start the development server
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
-
-4. Run on a specific platform
-   ```bash
-   # For iOS
-   npm run ios
-   
-   # For Android
-   npm run android
-   ```
-
 ## 📱 Usage
 
 ### Home Screen
@@ -134,30 +63,6 @@ The app implements comprehensive error handling to ensure a smooth user experien
 
 ### State Management
 Application state is managed using React's Context API and hooks. Local component state is handled with useState, while more complex state logic uses useReducer.
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can contribute:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a pull request
-
-Please ensure your code follows the existing style and includes appropriate tests.
-
-## 📝 Notes for GitHub Upload
-
-This project doesn't contain any sensitive information like API keys, so it can be pushed directly to GitHub. However, when integrating with real APIs:
-
-1. Create an `.env` file for API keys and add it to `.gitignore`
-2. Consider adding a sample `.env.example` file with dummy values
-3. Update the README with instructions for setting up the environment variables
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgements
 
